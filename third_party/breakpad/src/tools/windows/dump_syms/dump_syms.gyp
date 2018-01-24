@@ -41,24 +41,24 @@
         '../../../common/windows/common_windows.gyp:common_windows_lib',
       ],
     },
-    {
-      'target_name': 'dump_syms_unittest',
-      'type': 'executable',
-      'sources': [
-        'dump_syms_unittest.cc',
-      ],
-      'dependencies': [
-        '<(DEPTH)/client/windows/unittests/testing.gyp:gmock',
-        '<(DEPTH)/client/windows/unittests/testing.gyp:gtest',
-        'dump_syms',
-      ],
-      'msvs_settings': {
-        'VCLinkerTool': {
-          'AdditionalDependencies': [
-            'shell32.lib',
-          ],
-        },
-      },
-    },
+    # {
+      # 'target_name': 'dump_syms_unittest',
+      # 'type': 'executable',
+      # 'sources': [
+        # 'dump_syms_unittest.cc',
+      # ],
+      # 'dependencies': [
+        # '<(DEPTH)/client/windows/unittests/testing.gyp:gmock',
+        # '<(DEPTH)/client/windows/unittests/testing.gyp:gtest',
+        # 'dump_syms',
+      # ],
+      # 'msvs_settings': {
+        # 'VCLinkerTool': {
+          # 'AdditionalDependencies': [
+            # 'shell32.lib',
+          # ],
+        # },
+      # },
+    # },
   ],
 }

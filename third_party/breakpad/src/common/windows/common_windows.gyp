@@ -89,17 +89,17 @@
         'dia_sdk',
       ],
     },
-    {
-      'target_name': 'common_windows_unittests',
-      'type': 'executable',
-      'sources': [
-        'omap_unittest.cc',
-      ],
-      'dependencies': [
-        '<(DEPTH)/client/windows/unittests/testing.gyp:gmock',
-        '<(DEPTH)/client/windows/unittests/testing.gyp:gtest',
-        'common_windows_lib',
-      ],
-    },
+    # {
+      # 'target_name': 'common_windows_unittests',
+      # 'type': 'executable',
+      # 'sources': [
+        # 'omap_unittest.cc',
+      # ],
+      # 'dependencies': [
+        # '<(DEPTH)/client/windows/unittests/testing.gyp:gmock',
+        # '<(DEPTH)/client/windows/unittests/testing.gyp:gtest',
+        # 'common_windows_lib',
+      # ],
+    # },
   ],
 }
